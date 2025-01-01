@@ -1,5 +1,5 @@
 # Weather_Forecast_App
-DESCRIPTION
+DESCRIPTION<br>
 WeatherApp is a simple and interactive web application built with HTML, CSS, and JavaScript. It allows users to check the current weather for any location using real-time weather data.
 
 FEATURES
