@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-image: url('sky.webp'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover; /* Makes the image cover the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height to full viewport height */
+    
+}
+.header{
+    width:100vw;
+    height:65px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+      }
+      .upperinner{
+        display: flex;
+        justify-content: center;
+      }
+      .mainbody{
+        margin-top: 30px;
+        width:600px;
+        height:560px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 1px 1px 7px black;
+      }
+      .searchbar{
+        height:50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3px;
+        padding:10px;
+      }
+      .searchbar input{
+        font-size: large;
+        margin-top: 25px;
+        width:490px;
+        height:50px;
+        padding-left:1rem;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 10px;
+      }
+      .searchbar button{
+        height:50px;
+        width:60px;
+        margin-top: 25px;
+        background-color: blue;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .imagediv{
+        margin-top: 20px;
+        height:200px;
+        width:600px;
+        display: flex;
+        justify-content: center;   
+     }
+     .imagediv img{
+        height:200px;
+        width:200px;
+     }
+     .weatherbox{
+        margin-block: 20px;
+        text-align: center;
+     }
+     .weatherbox .temp{
+        font-size: 45px;
+        font-weight: 800;
+        position: relative;
+     }
+     .weatherbox .temp sup{
+        font-size: 30px;
+        position: absolute;
+        font-weight: 600;
+     }
+     .weatherbox .descrip{
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+     }
+     .weather-details{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    
+    .humidity, .wind, .pressure{
+        display: flex;
+        align-items: center;
+    }
+    
+    .humidity{
+        margin-left: 20px;
+    }
+    
+    .wind{
+        margin-right: 20px;
+    }
+    
+    .weather-details i{
+        font-size: 40px;
+    }
+    
+    .weather-details .text{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    .text span{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .location-not-found{
+      margin-top: 50px;
+      padding-top: 20px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+  
+  .location-not-found h1{
+      font-size: 30px;
+      color: white;
+      margin-block-end: 15px;
+  }
+  .location-not-found img{
+      width: 60%;
+  }
+  
+  .content{
+      flex-direction: column;
+      display:flex;
+  }
+    
