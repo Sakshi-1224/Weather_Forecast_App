@@ -1,18 +1,18 @@
 # Weather_Forecast_App
-DESCRIPTION<br>
+# DESCRIPTION<br>
 WeatherApp is a simple and interactive web application built with HTML, CSS, and JavaScript. It allows users to check the current weather for any location using real-time weather data.
 
-FEATURES
+# FEATURES
 - Displays current weather information like temperature, humidity, wind speed, etc.
 - User-friendly interface with responsive design.
 - Fetches weather data using a public API (https://openweathermap.org/api).
 
-TECHNOLOGIES USED
+# TECHNOLOGIES USED
 - HTML: For the structure of the application.
 - CSS: For styling and layout.
 - JavaScript: For dynamic content and API integration.
 
-How to Use
+# How to Use
 - Clone the repository:
 - bash
 Copy code
